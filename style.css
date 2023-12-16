@@ -6,24 +6,28 @@
     text-align: center;
 }
 body{
-    background: rgb(0,0,0);
+    background: rgb(0, 0, 0);
 }
 .header{
    text-align: center;
    font-family: 'Courier New';
    color: white;
+   border: solid white 3px;
+   border-radius: 5px;
+   margin-left: 200px;
+   margin-right: 200px;
 }
 .navbtn-content{
     display: none;
   position: absolute;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   border-radius: 5px;
 }
 .navbtn-content a{
-    color: black;
+    color: rgb(255, 255, 255);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -40,11 +44,15 @@ button {
     border-radius: 5px;
     background-color: rgba(255,255,255,0.5);
 }
-.navbtn-content a:hover{background-color: white}
+.navbtn-content a:hover{background-color: rgb(0, 0, 0)}
 .navbutton:hover .navbtn-content{display: block;}
 .navbutton:hover .drpbtn {background-color: white}
 .container {
     margin: 0 auto 20px;
     max-width: 500px;
   }
+.images img{
+    border-radius: 15px;
+}
+
   
